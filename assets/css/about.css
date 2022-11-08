@@ -1,0 +1,382 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin:0;
+      
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 50px;
+}
+
+#banner_img{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    z-index: 1;
+}
+
+.banner_txt {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 50px;
+    margin-right: 900px;
+    margin-left: 50px;
+    position: relative;
+    margin-top: -380px;
+    font-weight: 800;
+}
+
+.explore h1{
+    margin-top: 140px;
+    position: relative;
+    margin-left: 42%;
+}
+
+.button-24 {
+  margin-top: 50px;
+  text-decoration: none;
+  margin-left: 50px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 16px;
+  min-height: 50px;
+  outline: 0;
+  padding: 12px 14px;
+  padding-top: 15px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: white;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.explore img {
+    width: 100px;
+    height: 100px;
+    margin-left: 127px;
+    margin-top: 30px;
+}
+
+.icon_txt {
+    display: flex;
+    
+}
+
+.icon_txt p {
+    margin-left: 127px;
+    font-family: "Montserrat";
+}
+
+#g-icon-txt {
+    position:absolute;
+    margin-left: 380px;
+}
+
+#m-icon-txt {
+    position:absolute;
+    margin-left: 620px;
+}
+
+#r-icon-txt {
+    position:absolute;
+    margin-left: 830px;
+}
+
+#h-icon-txt {
+    position:absolute;
+    margin-left: 1070px;
+}
+
+#c-icon-txt {
+    position:absolute;
+    margin-left: 1310px;
+}
+
+#img1 {
+    animation: fadein 2s;
+    transition: transform .2s;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover,
+#img5:hover, #img6:hover {
+    transform: scale(1.4);
+}
+
+#img2 {
+    animation: fadein 3s;
+    transition: transform .2s;
+}
+
+#img3 {
+    animation: fadein 4s;
+    transition: transform .2s;
+}
+
+#img4 {
+    animation: fadein 5s;
+    transition: transform .2s;
+}
+
+#img5 {
+    animation: fadein 6s;
+    transition: transform .2s;
+}
+#img6 {
+    animation: fadein 7s;
+    transition: transform .2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.desc_img {
+    filter: brightness(50%);
+    width: 100%;
+    margin-top: 50px;
+    height: 750px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    z-index: 1;
+}
+
+.description h1 {
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 30%;
+    position: absolute;
+    margin-top: -720px;
+}
+
+.description {
+    margin-right: 0px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+
+#img11 {
+    margin-top: -600px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img12 {
+    margin-top: -400px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img13 {
+    margin-top: -200px;
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img14 {
+    margin-top: -600px;
+    margin-left: 900px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img15 {
+    margin-top: -400px;
+    margin-left: 900px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img15 {
+    margin-top: -400px;
+    margin-left: 900px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: invert(1);
+}
+
+#img16 {
+     height: 100px;
+     width: 100px;
+     margin-left: 900px;
+     margin-top: -400px;
+     margin-bottom: 120px;
+     filter: invert(1);
+     position: relative;
+}
+
+#txt11 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 550px;
+    color: white;
+    font-size: 20px;
+}
+
+#txt12 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 550px;
+    color: white;
+    font-size: 20px;
+}
+
+#txt13 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 550px;
+    color: white;
+    font-size: 20px;
+}
+
+#txt14 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 1050px;
+    color: white;
+    font-size: 20px;
+}
+
+#txt15 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 1050px;
+    color: white;
+    font-size: 20px;
+}
+
+#txt16 {
+    font-family: "Montserrat";
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 1050px;
+    color: white;
+    font-size: 20px;
+}
+.gallery {
+    margin-top: -30px;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(10, 80vw);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow: scroll;
+	height: 90vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+    overflow-y: hidden;
+}
+
+.gallery img {
+    height: 650px;
+    overflow: hidden;
+}
+
+.active {
+	scroll-snap-type: unset;
+}
+
+li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+}
+
+.gallery_t h1 {
+    margin-left: 44%;
+    margin-top: -10px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+.map h1{
+    margin-left: 40%;
+}
