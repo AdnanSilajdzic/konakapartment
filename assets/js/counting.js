@@ -9,7 +9,7 @@ function animateValue(id){
             current+=0.1;
             obj.innerHTML = current.toFixed(1);
         }
-    },50);
+    },30);
 }
 var review = document.getElementById("review_img");
 var value = document.getElementById("value");
