@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<header>
+<head>
     <title>Konak Apartment</title>
     <link href="assets/css/about.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
-
-</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap" rel="stylesheet">
+</head>
 <body>
     <div class="banner">
         <img id="banner_img" src="assets/images/vijecnica2.jpg">
@@ -22,7 +24,8 @@
         <img id="img2" src="assets/images/image.png"></a>
         <a href="#location_title">
         <img id="img3" src="assets/images/map.png"></a>
-        <img id="img4" src="assets/images/feedback.png">
+        <a href="#review">
+        <img id="img4" src="assets/images/feedback.png"></a>
         <img id="img5" src="assets/images/parchment.png">
         <img id="img6" src="assets/images/contact.png">
         
@@ -54,25 +57,51 @@
 
     <div class="gallery_t">
         <h1 id="gallery_title">Gallery</h1>
-    </div>
-        <ul class="gallery">
-            <li style="background-image: url(assets/images/apartment1.jpg);" id="gallery"></li>
-            <li style="background-image: url(assets/images/apartment2.jpg);"></li>
-            <li style="background-image: url(assets/images/apartment3.jpg);"></li>
-            <li style="background-image: url(assets/images/apartment4.jpg);"></li>
-            <li style="background-image: url(assets/images/apartment5.jpg);"></li>
-        </ul>
+        <div class="container reveal">
+            <button id="left-btn"><i class="arrow"></i></button>
+            <img id="carousel" src="" alt="">
+            <button id="right-btn"><i class="arrow"></i></button>
+        </div>
 
         <div class="map">
             <h1 id="location_title">Our Location</h1>
-            <p>hldahfčelhf</p>
-            <p>hldahfčelhf</p>
-            <p>hldahfčelhf</p>
-            <p>hldahfčelhf</p>
-            <p>hldahfčelhf</p>
+            <img id="clock" class="float"src="assets/images/clock.png">
+            <ul class="loc_list">
+                <li id="sebilj">Sebilj</li>
+                <li id="vijecnica">Viječnica</li>
+                <li id="trebevic">Trebević cable car</li>
+                <li id="tabija">Žuta Tabija</li>
+                <li id="vatra">Vječna Vatra</li>
+                <li id="carsija">Baščaršija</li>
+            </ul>
+            <span id="test" style="color: white;">Click on a location!</span>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500" id="gmap_canvas" 
+                    src="https://maps.google.com/maps?q=konak%203&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a>
+                    <br>
+                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+                    <a href="https://www.embedgooglemap.net">how to add google maps to website</a><style>
+                    .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+                </div>
+            </div>
         </div>
-
+        
+        <div class="reviews">
+            <h1 id="review">Our rating is</h1>
+            <img src="assets/images/review.png" class="review_img" id="review_img">
+            <h2 id="value"></h2>
+            <h3 class="outtaten" id="outtaten">out of ten on <a href="https://www.booking.com/hotel/ba/konak-apartment.hr.html#tab-reviews">booking.com</a></h3>
+        </div>
+        <div class="history">
+           <!--<h1>Our History</h1>--> 
+           <!--<img src="assets/images/tin.jpg">--> 
+        </div>
+    <script src="assets/js/counting.js"></script>
     <script src="assets/js/banner_animation.js"></script>
     <script src="assets/js/reveal.js"></script>
     <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/map.js"></script>
 </body>
