@@ -21,6 +21,10 @@ body {
   transform: translateY(-50%);
 }
 
+#background {
+
+}
+
 h1{
   font-weight: 600;
   color: #1c1c1c;
@@ -69,20 +73,20 @@ h2 {
   font-size: 25px;
 }
 
-.hero-section__wrap {
+.full {
   height: 100vh;
 }
 
-.hero-section__option {
+.background {
   position: absolute;
 }
 
-.hero-section__option img {
+.background img {
     position: static;
     max-width: 100%;
 }
 
-.hero-section--image::before {
+.full::before {
   content: "";
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
@@ -94,10 +98,10 @@ h2 {
   position: absolute;
 }
 
-.hero-section--image * {
+.full * {
   color: #fff;
 }
 
-.hero-section__words {
+.word_effect {
   font-size: 100px;
 }
