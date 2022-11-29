@@ -21,13 +21,9 @@ body {
   transform: translateY(-50%);
 }
 
-#background {
-
-}
-
 h1{
   font-weight: 600;
-  color: #1c1c1c;
+  color: white;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 3.75rem;
@@ -35,7 +31,7 @@ h1{
 
 h2 {
   font-weight: 600;
-  color: #1c1c1c;
+  color: white;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 2.5rem;
@@ -71,6 +67,7 @@ h2 {
 
 .title_description{
   font-size: 25px;
+  color: white;
 }
 
 .full {
@@ -86,7 +83,7 @@ h2 {
     max-width: 100%;
 }
 
-.full::before {
+.background::before {
   content: "";
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
@@ -96,10 +93,6 @@ h2 {
   right: 0;
   bottom: 0;
   position: absolute;
-}
-
-.full * {
-  color: #fff;
 }
 
 .word_effect {
