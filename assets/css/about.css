@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -27,21 +28,30 @@ h1 {
     font-family: "Montserrat";
     color: white;
     font-size: 50px;
-    margin-right: 900px;
+    margin-right: 30%;
     margin-left: 50px;
     position: relative;
-    margin-top: -380px;
     font-weight: 800;
 }
 
+#top_txt {
+    margin-top: -380px;
+}
+
+#word {
+    margin-top: -2vmin;
+    margin-right: 0;
+    position: absolute;
+}
+
 .explore h1{
-    margin-top: 140px;
+    margin-top: 22vmin;
     position: relative;
     text-align: center;
 }
 
 .button-24 {
-  margin-top: 50px;
+  margin-top: 8vmin;
   text-decoration: none;
   margin-left: 50px;
   background: white;
@@ -69,57 +79,26 @@ h1 {
   vertical-align: middle;
 }
 
-.button-24:hover,
-.button-24:active {
+.button-24:hover {
   background-color: initial;
   background-position: 0 0;
   color: white;
 }
 
-.button-24:active {
-  opacity: .5;
-}
-
-.explore img {
+.explore img, p {
     width: 100px;
     height: 100px;
     margin-left: 127px;
     margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 5vmin;
 }
 
-.icon_txt {
-    display: flex;
-    
-}
-
-.icon_txt p {
-    margin-left: 127px;
+.explore p {
     font-family: "Montserrat";
-}
-
-#g-icon-txt {
-    position:absolute;
-    margin-left: 380px;
-}
-
-#m-icon-txt {
-    position:absolute;
-    margin-left: 620px;
-}
-
-#r-icon-txt {
-    position:absolute;
-    margin-left: 830px;
-}
-
-#h-icon-txt {
-    position:absolute;
-    margin-left: 1070px;
-}
-
-#c-icon-txt {
-    position:absolute;
-    margin-left: 1310px;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 150px;
 }
 
 #img1 {
@@ -206,9 +185,6 @@ h1 {
     margin-top: -720px;
 }
 
-.description {
-    margin-right: 0px;
-}
 
 .reveal{
     position: relative;
@@ -224,7 +200,7 @@ h1 {
 
 #img11 {
     margin-top: -600px;
-    margin-left: 400px;
+    margin-left: 20vw;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -233,7 +209,7 @@ h1 {
 
 #img12 {
     margin-top: -400px;
-    margin-left: 400px;
+    margin-left: 20vw;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -242,7 +218,7 @@ h1 {
 
 #img13 {
     margin-top: -200px;
-    margin-left: 400px;
+    margin-left: 20vw;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -251,7 +227,7 @@ h1 {
 
 #img14 {
     margin-top: -600px;
-    margin-left: 900px;
+    margin-left: 65vw;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -260,7 +236,7 @@ h1 {
 
 #img15 {
     margin-top: -400px;
-    margin-left: 900px;
+    margin-left: 65vw;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -269,7 +245,7 @@ h1 {
 
 #img15 {
     margin-top: -400px;
-    margin-left: 900px;
+    margin-left: 65vw;
     margin-bottom: 0px;
     width: 100px;
     height: 100px;
@@ -280,7 +256,7 @@ h1 {
 #img16 {
      height: 100px;
      width: 100px;
-     margin-left: 900px;
+     margin-left: 65vw;
      margin-top: -400px;
      margin-bottom: 120px;
      filter: invert(1);
@@ -291,7 +267,7 @@ h1 {
     font-family: "Montserrat";
     position: absolute;
     margin-top: -570px;
-    margin-left: 550px;
+    margin-left: -44vw;
     color: white;
     font-size: 20px;
 }
@@ -300,7 +276,7 @@ h1 {
     font-family: "Montserrat";
     position: absolute;
     margin-top: -390px;
-    margin-left: 550px;
+    margin-left: -44vw;
     color: white;
     font-size: 20px;
 }
@@ -308,8 +284,8 @@ h1 {
 #txt13 {
     font-family: "Montserrat";
     position: absolute;
-    margin-top: -185px;
-    margin-left: 550px;
+    margin-top: -165px;
+    margin-left: -44vw;
     color: white;
     font-size: 20px;
 }
@@ -317,8 +293,8 @@ h1 {
 #txt14 {
     font-family: "Montserrat";
     position: absolute;
-    margin-top: -570px;
-    margin-left: 1050px;
+    margin-top: -565px;
+    margin-left: 1vw;
     color: white;
     font-size: 20px;
 }
@@ -326,8 +302,8 @@ h1 {
 #txt15 {
     font-family: "Montserrat";
     position: absolute;
-    margin-top: -390px;
-    margin-left: 1050px;
+    margin-top: -350px;
+    margin-left: 1vw;
     color: white;
     font-size: 20px;
 }
@@ -335,16 +311,16 @@ h1 {
 #txt16 {
     font-family: "Montserrat";
     position: absolute;
-    margin-top: -185px;
-    margin-left: 1050px;
+    margin-top: -170px;
+    margin-left: 1vw;
     color: white;
     font-size: 20px;
 }
 .container {
-    width: 890px;
-    height: 600px;
+    width: 80vw;
+    height: 47vw;
     display: flex;
-    margin-left: 21%;
+    margin-left: 10vw;
     justify-content: center;
     box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
         0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
@@ -399,6 +375,26 @@ button .arrow {
 
 .mapouter {
     margin-left: 54%;
+    width: 30vw;
+    height: 30vw;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    margin-left: 60vw;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height: 35vw;
+    width:35vw;
+    margin-right: 0;
+    position:absolute;
+
 }
 
 .map {
@@ -415,10 +411,10 @@ button .arrow {
     font-family: "Montserrat";
     color: white;
     font-weight: 600;
-    font-size: 30px;
-    margin-left: 100px;
+    font-size: 2vw;
+    margin-left: 5vw;
     position: absolute;
-    line-height: 65px;
+    line-height: 5vw;
 }
 
 .loc_list li:hover {
@@ -427,19 +423,19 @@ button .arrow {
 
 #clock {
     filter: invert(1);
-    height: 100px;
-    width: 100px;
-    margin-left: 550px;
+    height: 7vw;
+    width: 7vw;
+    margin-left: 38vw;
     margin-top: 100px;
     position: absolute;
 }
 
 #test {
     position: absolute;
-    margin-left: 570px;
+    margin-left: 38vw;
     margin-top: 220px;
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 600;
 }
 
@@ -514,41 +510,42 @@ button .arrow {
     margin-top: 220px;
     z-index: 1;
     height: 800px;
+    object-fit: cover;
+    object-position: 50% 0%;
 }
 
 #par1 {
     font-family: "Montserrat";
     color: white;
-    font-weight: 600;
-    font-size: 30px;
-    margin-left: 100px;
+    font-weight: 550;
+    font-size: 25px;
+    margin-left: 5vw;
     position: absolute;
-    margin-right: 70%;
-    line-height: 50px;
+    line-height: 30px;
+    width: 25vw;
 }
 
 #par2 {
     font-family: "Montserrat";
     color: white;
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 550;
+    font-size: 25px;
     margin-left: 100px;
     position: absolute;
-    margin-right: 40%;
-    margin-left: 40%;
-    line-height: 50px;
+    margin-left: 40vw;
+    width: 25vw;
+    line-height: 30px;
 }
 
 #par3 {
     font-family: "Montserrat";
     color: white;
-    font-weight: 600;
-    font-size: 30px;
-    margin-left: 100px;
+    font-weight: 550;
+    font-size: 25px;
+    margin-left: 70vw;
     position: absolute;
-    margin-right: 10%;
-    margin-left: 70%;
-    line-height: 50px;
+    line-height: 30px;
+    width: 25vw;
 }
 
 .contact {

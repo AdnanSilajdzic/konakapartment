@@ -12,8 +12,8 @@
     <!--Banner section-->
     <div class="banner">
         <img id="banner_img" src="assets/images/vijecnica2.jpg">
-        <h1 class="banner_txt">Discover more about:</h1>
-        <span class="banner_txt" id="word"></span>
+        <h1 class="banner_txt" id="top_txt">Discover more about:</h1>
+        <h1 class="banner_txt" id="word"></h1>
         <br>
         <a class="button-24" href="https://www.booking.com/hotel/ba/konak-apartment.hr.html">Book now</a>
     </div>
@@ -23,25 +23,22 @@
         <h1>Explore</h1>
         <a href="#amenities">
         <img id="img1" src="assets/images/info.png"></a>
+        <p>Description</p>
         <a href="#gallery_title">
         <img id="img2" src="assets/images/image.png"></a>
+        <p id="g-icon-txt">Gallery</p>
         <a href="#location_title">
         <img id="img3" src="assets/images/map.png"></a>
+        <p id="m-icon-txt">Map</p>
         <a href="#review">
         <img id="img4" src="assets/images/feedback.png"></a>
+        <p id="r-icon-txt">Reviews</p>
         <a href="#tin">
         <img id="img5" src="assets/images/parchment.png"></a>
+        <p id="h-icon-txt">History</p>
         <a href="#contact">
         <img id="img6" src="assets/images/contact.png"></a>
-        
-        <div class="icon_txt">
-            <p>Description</p>
-            <p id="g-icon-txt">Gallery</p>
-            <p id="m-icon-txt">Map</p>
-            <p id="r-icon-txt">Reviews</p>
-            <p id="h-icon-txt">History</p>
-            <p id="c-icon-txt">Contact</p>
-        </div>
+        <p id="c-icon-txt">Contact</p>
     </div>
 
     <!--Amenities section-->
@@ -84,16 +81,12 @@
                 <li id="carsija">Baščaršija</li>
             </ul>
             <span id="test" style="color: white;">Click on a location!</span>
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe width="600" height="500" id="gmap_canvas" 
-                    src="https://maps.google.com/maps?q=konak%203&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    <a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a>
-                    <br>
-                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-                    <a href="https://www.embedgooglemap.net">how to add google maps to website</a><style>
-                    .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            <div class="map-responsive">
+                <div class="mapouter">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.9623429149415!2d18.
+                    42907751546638!3d43.85660917911486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8c7fc7f2d65%3
+                    A0x13590e7d26695b7a!2sKonak%203%2C%20Sarajevo%2071000!5e0!3m2!1sen!2sba!4v1670173715375!5m2!1sen!2sba" width="600" 
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -115,16 +108,6 @@
            </p>
            <p id="par2" class="reveal">A famous author named Tin Ujevic used to live in this building</p>
            <p id="par3" class="reveal">This house can be seen in a popular Bosnian movie called "Valter Brani Sarajevo"</p>
-        </div>
-
-    <!--Contact section-->
-        <div id="contact" class="contact">
-            <p>Contact:</p>
-            <ul>
-                <li>Phone: 061/451-154</li>
-                <li>Email: sedina43@gmail.com</li>
-                <li>Address: konak 3, Sarajevo</li>
-            </ul>
         </div>
     <script src="assets/js/counting.js"></script>
     <script src="assets/js/banner_animation.js"></script>
